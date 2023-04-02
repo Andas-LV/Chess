@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  height: 40vh;
+  background-color: #212529;
+  color: rgb(220, 220, 220);
+}
+.footer-block {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+  width: 400px;
+  height: 100%;
+  font-weight: 300;
+  font-size: 16px;
+}
+.footer-block p {
+  font-weight: 300;
+  font-size: 16px;
+}
+.socials {
+  width: 40px;
+  height: 40px;
+  color: white;
+  cursor: pointer;
+}

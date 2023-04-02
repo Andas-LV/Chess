@@ -1,0 +1,120 @@
+.header {
+  background-color: #181818;
+  height: 15vh;
+  border-bottom: outset;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.theme {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.theme:hover {
+  background-color: #333;
+}
+.theme-img {
+  width: 36px;
+  height: 36px;
+}
+.theme.light {
+  display: none;
+}
+.burger {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.burger:hover {
+  background-color: #333;
+}
+.burger-img {
+  width: 36px;
+  height: 36px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+}
+.nav-block {
+  display: none;
+}
+.nav-block.active {
+  display: block;
+  transition: 0.7s;
+}
+.dropdown-btn {
+  width: 130px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #375cd5;
+  color: rgb(220, 220, 220);
+  border: none;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+}
+.dropdown-btn:hover {
+  background-color: #2349c6;
+  color: white;
+}
+.dropdown-menu {
+  display: none;
+}
+.dropdown-menu ul {
+  position: absolute;
+  text-align: center;
+  width: 130px;
+  height: 170px;
+  border-radius: 5px;
+  color: rgb(220, 220, 220);
+  background-color: #181818;
+  text-decoration: none;
+  list-style: none;
+}
+.dropdown-menu ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 500;
+  height: 42.5px;
+  text-align: center;
+}
+.dropdown-menu ul li:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #333;
+}
+.dropdown button {
+  width: 130px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #375cd5;
+  color: rgb(220, 220, 220);
+  border: none;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+}
+.dropdown button:hover {
+  background-color: #2349c6;
+  color: white;
+}
